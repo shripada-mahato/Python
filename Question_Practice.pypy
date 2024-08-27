@@ -1,0 +1,49 @@
+ #question 1 (date-27/08/2024)
+
+
+x = int(input("Enter a Number: "))
+if x / 2 == 0:
+    print("the number is Even ")
+else:
+    print("the number is Odd")
+
+ #question 2
+
+number = int(input("enter a number: "))
+if number > 0:
+    print("The Number is Positive")
+elif number < 0:
+    print("The Number is Negetive")
+else:
+    print("The Number is Zero")
+
+#question 3 check eligible for vote
+
+a = int(input("enter tour age: "))
+if a >= 20:
+    print("You Are Eligible For Vote")
+else:
+    print("You Are Not Eligible For Vote")
+
+#question 4 find largest from two
+
+a = int(input("enter the 1st number: "))
+b = int(input("enter the 2nd number: "))
+if a > b:
+    print("1st number is largest")
+elif b > a:
+    print("2nd number is largest")
+else:
+    print("both number are equal")
+
+#question 5 lear year
+
+year = int(input("enter year:"))
+if (year / 4 == 0 and year / 100 == 0) or(year / 400 == 0):
+    print("is a leap year")
+else:
+    print("is not a leap year")
+
+
+
+
